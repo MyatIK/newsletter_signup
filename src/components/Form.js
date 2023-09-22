@@ -1,46 +1,42 @@
-
-import './App.css';
-import illustrationMobile from './assets/images/illustration-sign-up-mobile.svg';
-import illustrationDesktop from './assets/images/illustration-sign-up-desktop.svg';
-import List from './components/List';
+import illustrationMobile from '../assets/images/illustration-sign-up-mobile.svg';
+import illustrationDesktop from '../assets/images/illustration-sign-up-desktop.svg';
+import List from './List';
 import { useState } from 'react';
-import SuccessMessage from './components/SuccessMessage';
+import SuccessMessage from './SuccessMessage';
 
 
-
-
-function App() {
-
-  const emailRegex = /\S+@\S+\.\S+/;
-  const[email,setEmail] = useState('');
-  const[validEmail,setValidEmail] = useState(false);
-  const[error,setError] = useState(false);
-  const[modalOpen, setModalOpen] = useState(false);
+function Form(){
+    const emailRegex = /\S+@\S+\.\S+/;
+    const[email,setEmail] = useState('');
+    const[validEmail,setValidEmail] = useState(false);
+    const[error,setError] = useState(false);
+    const[modalOpen, setModalOpen] = useState(false);
    
     
-  function handleChange(e){
-    const inputEmail=e.target.value;
-    setEmail(inputEmail);
-    setValidEmail(emailRegex.test(inputEmail) || inputEmail === "" )
+    function handleChange(e){
+        const inputEmail=e.target.value;
+        setEmail(inputEmail);
+        setValidEmail(emailRegex.test(inputEmail) || inputEmail === "" )
     }
 
-  function handleClick(){
-      if(validEmail){
-          setModalOpen(true);
-      }else{
-          setError(true);
-      }
+    function handleClick(){
+        if(validEmail){
+            setModalOpen(true);
+        }else{
+            setError(true);
+        }
 
     }
 
-  function handleModalClose(){
+    function handleModalClose(){
         setModalOpen(false);
         setEmail("")
     }
-  
-  
-  return (
-    <>
+
+
+
+    return(
+        <>
             {modalOpen? <SuccessMessage message={email} modalClose={handleModalClose}/> :
             
                 (<div className='h-screen w-screen bg-gray-700 flex justify-center place-items-center'>
@@ -76,8 +72,7 @@ function App() {
             
         
         </>
-    
-  );
+    )
 }
 
-export default App;
+export default Form;
