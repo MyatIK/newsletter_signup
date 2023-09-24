@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/%7Bnewsletter_signup%7D/static/css/main.5f02016f.css",
-    "main.js": "/%7Bnewsletter_signup%7D/static/js/main.402422b2.js",
-    "static/js/787.e9b54d54.chunk.js": "/%7Bnewsletter_signup%7D/static/js/787.e9b54d54.chunk.js",
-    "static/media/illustration-sign-up-mobile.svg": "/%7Bnewsletter_signup%7D/static/media/illustration-sign-up-mobile.3f6f1c6d3e48045cb31a0cae1ae11999.svg",
-    "static/media/illustration-sign-up-desktop.svg": "/%7Bnewsletter_signup%7D/static/media/illustration-sign-up-desktop.ce2024babf0bc98a8862252535b544c9.svg",
-    "index.html": "/%7Bnewsletter_signup%7D/index.html",
-    "static/media/icon-success.svg": "/%7Bnewsletter_signup%7D/static/media/icon-success.1ad016255f85fa877dc6bee8c9621535.svg",
-    "static/media/icon-list.svg": "/%7Bnewsletter_signup%7D/static/media/icon-list.5e317c030bb9f11a33433484a2c590e1.svg",
-    "main.5f02016f.css.map": "/%7Bnewsletter_signup%7D/static/css/main.5f02016f.css.map",
-    "main.402422b2.js.map": "/%7Bnewsletter_signup%7D/static/js/main.402422b2.js.map",
-    "787.e9b54d54.chunk.js.map": "/%7Bnewsletter_signup%7D/static/js/787.e9b54d54.chunk.js.map"
+    "main.css": "/newsletter_signup/static/css/main.5f02016f.css",
+    "main.js": "/newsletter_signup/static/js/main.c5a3773a.js",
+    "static/js/787.e9b54d54.chunk.js": "/newsletter_signup/static/js/787.e9b54d54.chunk.js",
+    "static/media/illustration-sign-up-mobile.svg": "/newsletter_signup/static/media/illustration-sign-up-mobile.3f6f1c6d3e48045cb31a0cae1ae11999.svg",
+    "static/media/illustration-sign-up-desktop.svg": "/newsletter_signup/static/media/illustration-sign-up-desktop.ce2024babf0bc98a8862252535b544c9.svg",
+    "index.html": "/newsletter_signup/index.html",
+    "static/media/icon-success.svg": "/newsletter_signup/static/media/icon-success.1ad016255f85fa877dc6bee8c9621535.svg",
+    "static/media/icon-list.svg": "/newsletter_signup/static/media/icon-list.5e317c030bb9f11a33433484a2c590e1.svg",
+    "main.5f02016f.css.map": "/newsletter_signup/static/css/main.5f02016f.css.map",
+    "main.c5a3773a.js.map": "/newsletter_signup/static/js/main.c5a3773a.js.map",
+    "787.e9b54d54.chunk.js.map": "/newsletter_signup/static/js/787.e9b54d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f02016f.css",
-    "static/js/main.402422b2.js"
+    "static/js/main.c5a3773a.js"
   ]
 }
